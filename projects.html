@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="lofi">
+<head>
+  <meta charset="UTF-8">
+  <title>Projects - Rahim's Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+<!-- Background video -->
+<video autoplay loop muted class="absolute top-0 left-0 w-full h-full object-cover -z-10">
+  <source src="img/bg2.mp4" type="video/mp4">
+  Browser does not support the video tag.
+</video>
+
+<!-- Navigation -->
+<nav class="navbar bg-base-100/80 backdrop-blur-sm sticky top-0 z-10 shadow-sm">
+  <div class="flex-1">
+    <a class="btn btn-ghost text-xl logo" href="index.html">Rahim.</a>
+  </div>
+  <div class="flex-none">
+    <ul class="menu menu-horizontal px-1">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="profile.html">Profile</a></li>
+      <li><a href="more.html">More</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Main Content -->
+<div class="projects-container px-4 py-8">
+  <!-- Header Section -->
+  <div class="text-center mb-12">
+    <h1 class="text-5xl font-bold logo mb-6">My Projects</h1>
+    <p class="text-xl max-w-2xl mx-auto">
+      Here are some of the projects I've worked on. Each one represents a step in my journey to becoming a better developer.
+    </p>
+    <div class="divider"></div>
+  </div>
+
+  <!-- Projects Grid -->
+  <section class="p-10 bg-base-200/70 rounded-2xl">
+    <h2 class="text-3xl font-bold mb-6 text-center">Featured Projects</h2>
+    <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+      <!-- Hair Salon Booking System -->
+      <div class="card bg-base-100 shadow-xl project-card">
+        <div class="card-body">
+          <h3 class="card-title">Hair Salon Booking System</h3>
+          <p>Full-stack web app for managing salon bookings using Spring Boot, JavaScript, and React. Features include appointment scheduling, customer management, and service tracking.</p>
+          <div class="flex flex-wrap gap-2 my-3">
+            <span class="tech-badge">Spring Boot</span>
+            <span class="tech-badge">React</span>
+            <span class="tech-badge">JavaScript</span>
+            <span class="tech-badge">PostgreSQL</span>
+          </div>
+          <div class="card-actions justify-end">
+            <a href="https://github.com/RahimOnGit/The-Glow-Salon" target="_blank" class="btn btn-primary">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Library Management System -->
+      <div class="card bg-base-100 shadow-xl project-card">
+        <div class="card-body">
+          <h3 class="card-title">Library Management System</h3>
+          <p>Spring Boot application with full CRUD operations, validation, and entity relationships using JPA. Includes book management, member tracking, and borrowing system.</p>
+          <div class="flex flex-wrap gap-2 my-3">
+            <span class="tech-badge">Spring Boot</span>
+            <span class="tech-badge">JPA</span>
+            <span class="tech-badge">Java</span>
+            <span class="tech-badge">H2 Database</span>
+          </div>
+          <div class="card-actions justify-end">
+            <a href="https://github.com/RahimOnGit/library-system" target="_blank" class="btn btn-primary">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Portfolio Website -->
+      <div class="card bg-base-100 shadow-xl project-card">
+        <div class="card-body">
+          <h3 class="card-title">Portfolio Website</h3>
+          <p>Responsive personal portfolio built with Spring Boot, Thymeleaf, and DaisyUI. Features a modern design with animated elements and project showcase.</p>
+          <div class="flex flex-wrap gap-2 my-3">
+            <span class="tech-badge">Spring Boot</span>
+            <span class="tech-badge">Thymeleaf</span>
+            <span class="tech-badge">Tailwind CSS</span>
+            <span class="tech-badge">DaisyUI</span>
+          </div>
+          <div class="card-actions justify-end">
+            <a href="https://github.com/RahimOnGit" target="_blank" class="btn btn-primary">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Task Management App -->
+      <div class="card bg-base-100 shadow-xl project-card">
+        <div class="card-body">
+          <h3 class="card-title">Task Management App</h3>
+          <p>A React-based task management application with drag-and-drop functionality, task categorization, and local storage persistence.</p>
+          <div class="flex flex-wrap gap-2 my-3">
+            <span class="tech-badge">React</span>
+            <span class="tech-badge">JavaScript</span>
+            <span class="tech-badge">CSS3</span>
+            <span class="tech-badge">Local Storage</span>
+          </div>
+          <div class="card-actions justify-end">
+            <a href="https://github.com/RahimOnGit" target="_blank" class="btn btn-primary">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Weather Dashboard -->
+      <div class="card bg-base-100 shadow-xl project-card">
+        <div class="card-body">
+          <h3 class="card-title">Weather Dashboard</h3>
+          <p>Interactive weather application that fetches data from a public API and displays forecasts with charts and location-based search.</p>
+          <div class="flex flex-wrap gap-2 my-3">
+            <span class="tech-badge">JavaScript</span>
+            <span class="tech-badge">API Integration</span>
+            <span class="tech-badge">Chart.js</span>
+            <span class="tech-badge">HTML5</span>
+          </div>
+          <div class="card-actions justify-end">
+            <a href="https://github.com/RahimOnGit" target="_blank" class="btn btn-primary">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- E-commerce Backend -->
+      <div class="card bg-base-100 shadow-xl project-card">
+        <div class="card-body">
+          <h3 class="card-title">E-commerce Backend API</h3>
+          <p>RESTful API for an e-commerce platform with product management, user authentication, and order processing capabilities.</p>
+          <div class="flex flex-wrap gap-2 my-3">
+            <span class="tech-badge">Node.js</span>
+            <span class="tech-badge">Express</span>
+            <span class="tech-badge">MongoDB</span>
+            <span class="tech-badge">JWT</span>
+          </div>
+          <div class="card-actions justify-end">
+            <a href="https://github.com/RahimOnGit" target="_blank" class="btn btn-primary">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GitHub Stats Section -->
+  <section class="mt-12 p-8 bg-base-100 rounded-2xl shadow-lg">
+    <h2 class="text-3xl font-bold mb-6 text-center">GitHub Activity</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="stat text-center">
+        <div class="stat-title">Public Repositories</div>
+        <div class="stat-value text-primary">6+</div>
+        <div class="stat-desc">And growing</div>
+      </div>
+
+      <div class="stat text-center">
+        <div class="stat-title">Main Languages</div>
+        <div class="stat-value text-secondary">Java • JS</div>
+        <div class="stat-desc">Spring Boot • React</div>
+      </div>
+
+      <div class="stat text-center">
+        <div class="stat-title">Latest Project</div>
+        <div class="stat-value">Hair Salon</div>
+        <div class="stat-desc">Booking System</div>
+      </div>
+    </div>
+
+    <div class="text-center mt-6">
+      <a href="https://github.com/RahimOnGit" target="_blank" class="btn btn-outline btn-wide">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="mr-2">
+          <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+        </svg>
+        Visit My GitHub Profile
+      </a>
+    </div>
+  </section>
+
+  <!-- Back to Home Button -->
+  <div class="text-center mt-8">
+    <a href="index.html" class="btn btn-outline btn-wide">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+      </svg>
+      Back to Home
+    </a>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer footer-center p-4 bg-base-300 text-base-content mt-12">
+  <div>
+    <p>© 2023 Rahim - Full Stack Developer</p>
+  </div>
+</footer>
+</body>
+</html>
